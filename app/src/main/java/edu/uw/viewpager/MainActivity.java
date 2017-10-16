@@ -1,4 +1,4 @@
-package edu.uw.fragmentdemo;
+package edu.uw.viewpager;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;

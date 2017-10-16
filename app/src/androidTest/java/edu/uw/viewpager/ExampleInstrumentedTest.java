@@ -1,4 +1,4 @@
-package edu.uw.fragmentdemo;
+package edu.uw.viewpager;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
