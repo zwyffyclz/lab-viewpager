@@ -2,8 +2,6 @@ package edu.uw.fragmentdemo;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +11,7 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DetailFragment extends DialogFragment {
+public class DetailFragment extends Fragment {
 
     public static final String MOVIE_PARCEL_KEY = "movie_parcel";
 
@@ -29,14 +27,6 @@ public class DetailFragment extends DialogFragment {
         fragment.setArguments(args);
         return fragment;
     }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        setStyle(DialogFragment.STYLE_NO_TITLE, android.R.style.Theme_Holo_Light_Dialog);
-    }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
