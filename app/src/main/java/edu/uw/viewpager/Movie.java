@@ -1,4 +1,4 @@
-package edu.uw.fragmentdemo;
+package edu.uw.viewpager;
 
 import android.os.Parcel;
 import android.os.Parcelable;
